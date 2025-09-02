@@ -25,4 +25,5 @@ Route::get('/admin/logout', [AdminController::class, 'AdminLogout'])->name('admi
 Route::middleware('auth')->group(function () {
     Route::get('/admin/profile', [AdminController::class, 'AdminProfile'])->name('admin.profile');
     Route::post('/profile/store', [AdminController::class, 'ProfileStore'])->name('profile.store');
+    Route::post('/admin/password/update', [AdminController::class, 'AdminPasswordUpdate'])->name('admin.password.update');
 });
