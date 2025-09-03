@@ -15,4 +15,9 @@ class BrandController extends Controller
         return view('admin.backend.brand.all_brand',compact('brand'));
 
     }
+
+    public function AddBrand()
+    {
+         return view('admin.backend.brand.add_brand');
+    }
 }
