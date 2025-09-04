@@ -82,9 +82,13 @@
 
         <!-- Widgets Init Js -->
         <script src="{{asset('backend/assets/js/pages/analytics-dashboard.init.js')}}"></script>
-
         
-       <!-- Datatables js -->
+<!-- sweetalert -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script> 
+         <script src="{{ asset('backend/assets/js/code.js') }}"></script>
+       
+       
+         <!-- Datatables js -->
         <script src="{{asset('backend/assets/libs/datatables.net/js/jquery.dataTables.min.js')}}"></script>
 
         <!-- dataTables.bootstrap5 -->
